@@ -6,19 +6,19 @@ The objective of this analysis is to evaluate whether the treatment page produce
 
 **Total Users:** 290,584
 
-Control Group: 145,274 users
-Treatment Group: 145,310 users
+**Control Group:** 145,274 users       
+**Treatment Group:** 145,310 users
 
-**Metrics analyzed:**
-• User conversions
-• Conversion rate
-• Daily experiment performance
+## **Metrics analyzed:**
+• User conversions           
+• Conversion rate           
+• Daily experiment performance                     
 
-**Tools Used:**
+## **Tools Used:**
 
-SQL – experiment metric calculations
-Python – statistical analysis and visualization
-Tableau – interactive dashboard and reporting
+SQL – experiment metric calculations         
+Python – statistical analysis and visualization                  
+Tableau – interactive dashboard and reporting                    
 
 ## **Analysis Workflow**
 
@@ -36,22 +36,24 @@ Conversion Lift:          -1.33%
 
 Performed a two-proportion z-test to determine if the difference in conversion rates is statistically significant.
 
-**Result:**
+##**Result:**
 
 p-value > 0.05
 
 The experiment does not show statistically significant improvement.
 
 
-**Tableau dashboard:** https://public.tableau.com/views/WebsiteABTestAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+## **Tableau dashboard:**      
 
-Key Insights
-• Traffic distribution between experiment groups was balanced.
-• Treatment page slightly underperformed the control page.
-• No statistically significant improvement was observed.
-• The company should retain the existing landing page.
+https://public.tableau.com/views/WebsiteABTestAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
-**Repository Structure:**
-data/        – experiment datasets
-notebooks/   – Python analysis
+## **Key Insights:**        
+• Traffic distribution between experiment groups was balanced.             
+• Treatment page slightly underperformed the control page.              
+• No statistically significant improvement was observed.               
+• The company should retain the existing landing page.           
+
+### **Repository Structure:**                    
+data/        – experiment datasets                       
+notebooks/   – Python analysis                     
 dashboard/   – Tableau dashboard screenshot
